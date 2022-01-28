@@ -1,0 +1,177 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 1em;
+}
+
+h1, h2, h3, p {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.header h1 {
+  color: hsl(229, 6%, 66%);
+  font-family: Poppins;
+  font-weight: 200;
+}
+
+.header h2 {
+  color: hsl(234, 12%, 34%);
+  font-family: Poppins;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-family: Poppins;
+  max-width: 55ch;
+  text-align: center;
+  color: hsl(229, 6%, 66%);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.dois-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* SUPERVISOR */
+.supervisor {
+  border-top: 3px solid hsl(180, 62%, 55%);
+  border-radius: 4px;
+  box-shadow: -10px 10px 20px rgba(0,0,0,0.2);
+  padding: 20px;
+  font-family: Poppins;
+  max-width: 350px;  
+}
+
+.supervisor h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+}
+
+.supervisor p {
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  max-width: 30ch;
+  margin-bottom: 10px;
+}
+
+.supervisor img {
+  float: right;
+  padding: 10px;
+}
+
+/* TEAM */
+
+.team {
+  box-shadow: -10px 10px 20px rgba(0,0,0,0.2);
+  border-top: 3px solid hsl(0, 78%, 62%);
+  border-radius: 4px;
+  padding: 20px;
+  font-family: Poppins;
+  max-width: 350px;
+}
+
+.team h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+}
+
+.team p {
+  max-width: 32ch;
+  font-family: 15px;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 10px;
+}
+
+.team img {
+  float: right;
+  padding: 10px;
+}
+
+/* KARMA */
+ 
+.karma {
+  box-shadow: -10px 10px 20px rgba(0,0,0,0.2);
+  border-top: 3px solid hsl(34, 97%, 64%);
+  border-radius: 4px;
+  padding: 20px;
+  font-family: Poppins;
+  max-width: 350px;
+}
+
+.karma h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+}
+
+.karma p {
+  max-width: 35ch;
+  font-family: 15px;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 10px;
+}
+
+.karma img {
+  float: right;
+  padding: 10px;
+}
+
+/* CALCULATOR */
+
+.calculator {
+  box-shadow: -10px 10px 20px rgba(0,0,0,0.2);
+  border-top: 3px solid hsl(212, 86%, 64%);
+  border-radius: 4px;
+  padding: 20px;
+  font-family: Poppins;
+  max-width: 350px;
+}
+
+.calculator h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+}
+
+.calculator p{
+  max-width: 30ch;
+  font-family: Poppins;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 10px;
+}
+
+.calculator img {
+  float: right;
+  padding: 10px;
+}
+
+
+@media(max-width: 950px) {
+  .cards {
+    display: grid;
+  }
+  .header p {
+    max-width: 32ch;
+  }
+}
